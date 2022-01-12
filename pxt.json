@@ -1,0 +1,42 @@
+{
+    "name": "sterowanie silnikiem ",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "powerfunctions": "github:philipphenkel/pxt-powerfunctions#v1.5.1",
+        "termometr 3": "github:sikor409/termometr-3#master",
+        "motorbit": "github:tinkertanker/pxt-motorbit#v2.0.0",
+        "BitBot": "github:4tronix/BitBot#1.5.2",
+        "cutebot": "github:elecfreaks/pxt-cutebot#v6.0.2",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.0.8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
